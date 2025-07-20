@@ -1,0 +1,4 @@
+---@class HRCarWashConfig
+---@field carWashStations { enable: boolean, blip: { label: string, sprite: integer, color: integer, scale: number }, stationsMarker: { defaultStartWashingKey: string, scale: vector3, color: { r: number, g: number, b: number } }, washRoolerPropName: string, verticalRoolerTwoCyclesDuration: number, horizontalRoolerTwoCyclesDuration: number, textUIDistance: number, defaultKey: string, money: { account: 'bank'|'cash', amount: integer }, stations: vector4[] }
+---@field selfWash { useDistance: number, animation: { dict: string, animName: string, duration: number }, itemUseDelay: { enable: boolean, delay: number, tryDuringDelayMsg: string } }
+---@field getMoneyFunction fun(playerId: integer) By default, this function supports esx and qb frameworks
