@@ -1,9 +1,13 @@
 # HRCarWash
-Free car wash system, designed to provide car wash services (car wash stations and self car wash by car washing tool item), compatible with each framework and with easy configuration
+FiveM car wash system with self car wash system and car wash stations, compatible with ESX and QBCore frameworks
+Author: HRScripts
+
+<!-- ![HRCarWash_Thumbnail|690x388]() -->
 
 # Links
 
 - Preview: 
-- Support's Discord: discord.gg/m268SrJZTb
+- Discord: discord.gg/m268SrJZTb
 - Repository: https://github.com/HRScripts/HRCarWash
 - Documentation: https://hrscripts.gitbook.io/resources/HRCarWash
+- Forum Post: ...

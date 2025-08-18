@@ -7,8 +7,8 @@ config.carWashStations = {
     blip = {
         label = 'LS Car Wash',
         sprite = 100,
-        color = 17,
-        scale = 0.5
+        color = 26,
+        scale = 1.0
     },
     stationsMarker = {
         defaultStartWashingKey = 'E',

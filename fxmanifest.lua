@@ -4,7 +4,7 @@ lua54 'yes'
 
 name 'HRCarWash'
 author 'HRScripts'
-description 'Car wash script with car wash stations option and realistic car washing by yourself'
+description 'Car wash system with self car wash system and car wash stations'
 version '1.0.0'
 
 shared_script '@HRLib/import.lua'
