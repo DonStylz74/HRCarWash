@@ -7,7 +7,8 @@ Author: HRScripts
 # Links
 
 - Preview: https://www.youtube.com/watch?v=7yt2tDH21Lo&ab_channel=HRScripts
-- Discord: discord.gg/m268SrJZTb
+- Discord: https://discord.gg/m268SrJZTb
 - Repository: https://github.com/HRScripts/HRCarWash
 - Documentation: https://hrscripts.gitbook.io/resources/HRCarWash
 - Forum Post: ...
+
