@@ -18,7 +18,4 @@ files {
     'translation.lua'
 }
 
-dependencies {
-    'HRLib',
-    'oxmysql'
-}
+dependency 'HRLib'

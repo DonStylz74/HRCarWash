@@ -64,10 +64,3 @@ elseif invType == 'qb' then
         end
     end)
 end
-
-RegisterCommand('testCommand', function()
-    local veh <const> = HRLib.ClosestVehicle().vehicle
-    local currCoords <const> = GetEntityCoords(veh)
-    SetVehicleDirtLevel(veh, 15.0)
-    StartWashStationAnimation(veh, vector4(currCoords.x, currCoords.y, currCoords.z, GetEntityHeading(veh)))
-end, false)

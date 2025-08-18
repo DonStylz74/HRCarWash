@@ -38,16 +38,8 @@ RegisterNetEvent('HRCarWash:syncronizeAnimation', function(netId, stationCoords)
     if players and #players > 0 then
         for i=1, #players do
             if players[i] ~= tostring(source) then
-                print('mhm')
                 TriggerClientEvent('HRCarWash:syncronizeAnimation', tonumber(players[i]) --[[@as integer]], netId, stationCoords)
             end
         end
     end
 end)
-
-RegisterCommand('tpPlToCoords', function(source, args)
-    local playerId = tonumber(args[1])
-    if playerId and HRLib.DoesIdExist(playerId) then
-        SetEntityCoords(GetPlayerPed(playerId), tonumber(args[2]), tonumber(args[3]), tonumber(args[4])) ---@diagnostic disable-line: missing-parameter, param-type-mismatch
-    end
-end, false)
