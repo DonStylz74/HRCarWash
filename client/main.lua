@@ -113,7 +113,8 @@ if config.carWashStations.enable then
                 options = {
                     sprite = config.carWashStations.blip.sprite,
                     colour = config.carWashStations.blip.color,
-                    scale = config.carWashStations.blip.scale
+                    scale = config.carWashStations.blip.scale,
+                    asShortRange = true
                 },
                 specificOptions = {
                     coords = HRLib.ToVector3(config.carWashStations.stations[i]) --[[@as vector3]]
