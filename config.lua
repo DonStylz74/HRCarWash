@@ -10,13 +10,6 @@ config.carWashStations = {
         color = 26,
         scale = 1.0
     },
-    stationsMarker = {
-        defaultStartWashingKey = 'E',
-        scale = vector3(1.0, 1.0, 1.0),
-        color = { r = 255, g = 255, b = 255 },
-        alpha = 255,
-        rotate = true
-    },
     washRoolerPropName = 'prop_carwash_roller_vert',
     verticalRoolerTwoCyclesSpeed = 1.0, -- Max is 1.42 (anything bigger is equal to it in the visual effect)
     horizontalRoolerTwoCyclesSpeed = 1.0, -- Max is 1.42 (anything bigger is equal to it in the visual effect)
@@ -40,7 +33,7 @@ config.selfWash = {
         propName = 'prop_rag_01',
         propOffsetForPlayerPed = vector3(0.10620473369158, -0.019339246593609, -0.059161619795683)
     },
-    itemUseDelay = {
+    itemUseDelay = { -- A delay that prevents the item reuse just when it was used for example better realism with the idea it probably tired the player
         enable = true,
         delay = 10000, -- In miliseconds
         tryDuringDelayMsg = 'You can\'t use this item in the next %s seconds!'
